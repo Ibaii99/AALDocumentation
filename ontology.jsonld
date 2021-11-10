@@ -1,0 +1,2419 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PermissionLey"
+    }, {
+      "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PermissionOrganizador"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas"
+    }, {
+      "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aereas"
+    }, {
+      "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/hasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geonames.org/3109204",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ubicacion" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.geonames.org/3109204/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Río sella"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Ibai Guillén"
+  }, {
+    "@value" : "Pablo García"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Ontology for outdoor sports activities"
+  }, {
+    "@language" : "es",
+    "@value" : "Ontología para actividades deportivas al aire libre."
+  } ],
+  "http://purl.org/dc/terms/hasVersion" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "http://creativecommons.org/licenses/by/3.0/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "urn:absolute:1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#15euros",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:precioCantidad" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:precioMetrica" : [ {
+    "@value" : "euros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "15 euros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#4x4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "4x4"
+  }, {
+    "@language" : "es",
+    "@value" : "4x4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Asset"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Deportes de agua o relacionado con ella."
+  }, {
+    "@language" : "en",
+    "@value" : "Water sports or water-related sports."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades acuáticas"
+  }, {
+    "@language" : "en",
+    "@value" : "Aquatic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeInmersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Acción de introducir o introducirse algo en un fluido."
+  }, {
+    "@language" : "en",
+    "@value" : "The action of introducing or introducing something into a fluid."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades acuáticas de inmersión"
+  }, {
+    "@language" : "en",
+    "@value" : "Immersion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSalto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Movement that consists of rising from the ground or other surface with momentum to fall into the water."
+  }, {
+    "@language" : "es",
+    "@value" : "Movimiento que consiste en elevarse del suelo u otra superficie con impulso para caer en el agua."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades acuáticas de salto"
+  }, {
+    "@language" : "en",
+    "@value" : "Jumping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Activididad realizada sobre la superficie del agua."
+  }, {
+    "@language" : "en",
+    "@value" : "Activity performed on the surface of the water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades acuáticas de superficie"
+  }, {
+    "@language" : "en",
+    "@value" : "Surface"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeAscender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Move from bottom to top and move from one point to another."
+  }, {
+    "@language" : "es",
+    "@value" : "Moverse de abajo arriba y desplazarse de un punto a otro."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades aéreas de ascenso"
+  }, {
+    "@language" : "en",
+    "@value" : "Ascend"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aereas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeCaer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "en",
+    "@value" : "Move from top to bottom."
+  }, {
+    "@language" : "es",
+    "@value" : "Moverse desde arriba hacia abajo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades aéreas de caída"
+  }, {
+    "@language" : "en",
+    "@value" : "Fall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aereas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Descenso sin la acción del motor y en condiciones normales."
+  }, {
+    "@language" : "en",
+    "@value" : "Descent without motor action and under normal conditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades aéreas de planeo"
+  }, {
+    "@language" : "en",
+    "@value" : "Glide"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aereas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de trepar"
+  }, {
+    "@language" : "en",
+    "@value" : "Climb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCaminar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de caminar"
+  }, {
+    "@language" : "en",
+    "@value" : "Walking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCorrer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de correr"
+  }, {
+    "@language" : "en",
+    "@value" : "Running"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeEquilibrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de equilibrio"
+  }, {
+    "@language" : "en",
+    "@value" : "Balance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeHielo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "es",
+    "@value" : "Actividades realizadas sobre una superficie helada."
+  }, {
+    "@language" : "en",
+    "@value" : "Activities performed on an icy surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades sobre hielo"
+  }, {
+    "@language" : "en",
+    "@value" : "Ice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeInvierno"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeInvierno",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de invierno"
+  }, {
+    "@language" : "en",
+    "@value" : "Winter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "es",
+    "@value" : "Actividades realizadas sobre una superficie nevada."
+  }, {
+    "@language" : "en",
+    "@value" : "Activities carried out on a snowy surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades sobre nieve"
+  }, {
+    "@language" : "en",
+    "@value" : "Snow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeInvierno"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeReptar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de reptar"
+  }, {
+    "@language" : "en",
+    "@value" : "Creep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeRodar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Desplazarse algo dando vueltas o girando sobre su propio eje."
+  }, {
+    "@language" : "en",
+    "@value" : "To move something by turning or rotating on its own axis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de rodar"
+  }, {
+    "@language" : "en",
+    "@value" : "Roll"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de saltar"
+  }, {
+    "@language" : "en",
+    "@value" : "Jump"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aereas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Actividad realizada en el aire o relacionado con él."
+  }, {
+    "@language" : "en",
+    "@value" : "Activity performed in the air or related to it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades aéreas"
+  }, {
+    "@language" : "en",
+    "@value" : "Aerial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aeroestacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Aerostación"
+  }, {
+    "@language" : "en",
+    "@value" : "Aerostation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#AlaDelta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ala delta"
+  }, {
+    "@language" : "en",
+    "@value" : "Hang gliding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Alpinismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Alpinism"
+  }, {
+    "@language" : "es",
+    "@value" : "Alpinismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emple un animal para la ejecución de la actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "The activity requires of an animal for its realization."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Animal"
+  }, {
+    "@language" : "es",
+    "@value" : "Animal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Apnea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Apnea"
+  }, {
+    "@language" : "es",
+    "@value" : "Buceo libre"
+  }, {
+    "@language" : "en",
+    "@value" : "Freediving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Submarinismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Arborismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arborism"
+  }, {
+    "@language" : "es",
+    "@value" : "Arborismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeEquilibrio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Sport use of vehicles in various modalities."
+  }, {
+    "@language" : "es",
+    "@value" : "Uso deportivo del vehiculo en varias modalidades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Auto sport"
+  }, {
+    "@language" : "es",
+    "@value" : "Automovilismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeRodar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Barranquismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Barranquismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Canyoning"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#BicicletaDeMontana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Bici de montaña"
+  }, {
+    "@language" : "en",
+    "@value" : "Mountain bike"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ciclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Biketrial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Biketrial"
+  }, {
+    "@language" : "es",
+    "@value" : "Trial bici"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ciclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Bodyboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bodyboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Buggie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Buggie"
+  }, {
+    "@language" : "es",
+    "@value" : "Buggie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#CaidaLibre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Caída libre"
+  }, {
+    "@language" : "en",
+    "@value" : "Freefall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paracaidismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Camello",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Camel"
+  }, {
+    "@language" : "es",
+    "@value" : "Camello"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Canoa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Canoeing"
+  }, {
+    "@language" : "es",
+    "@value" : "Piragüismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Capea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cape"
+  }, {
+    "@language" : "es",
+    "@value" : "Capea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#CarreraEnLaNaturaleza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Carrera en la naturaleza"
+  }, {
+    "@language" : "en",
+    "@value" : "Trail running"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCorrer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ciclismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Sport use of bikes in various modalities."
+  }, {
+    "@language" : "es",
+    "@value" : "Uso deportivo de la bicicleta en varias modalidades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ciclismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Cycling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeRodar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Cicloturismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cicloturismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Cycling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ciclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Cinta_tensa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cinta tensa"
+  }, {
+    "@language" : "en",
+    "@value" : "Slackline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeEquilibrio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Coasteering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coasteering"
+  }, {
+    "@language" : "es",
+    "@value" : "Coastering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Cuerpo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Emplea el cuerpo humano como principal eje de ejecución de la actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "The activity uses the human body for its execution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Body"
+  }, {
+    "@language" : "es",
+    "@value" : "Cuerpo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#DescensoDelSella",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rafting" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:medio" : [ {
+    "@language" : "es",
+    "@value" : "Fluvial"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn" : [ {
+    "@id" : "http://www.geonames.org/3109204"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Cuerpo"
+  }, {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Piragua"
+  }, {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Remo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Descenso del sella"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Enduro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Enduro"
+  }, {
+    "@language" : "es",
+    "@value" : "Enduro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motociclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Equipamiento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Requiere de objetos materiales no motorizados para realizar la actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "The activity requires of material objects for its execution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Equipamiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Equipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Equitacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Equitación"
+  }, {
+    "@language" : "en",
+    "@value" : "Horse riding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Escalada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Climbing"
+  }, {
+    "@language" : "es",
+    "@value" : "Escalada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#EscaladaEnHielo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Escalada en hielo"
+  }, {
+    "@language" : "en",
+    "@value" : "Ice climbing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeHielo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Esferismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Esferismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Zorbing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Esnorquel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Esnórquel"
+  }, {
+    "@language" : "en",
+    "@value" : "Snorkeling"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Submarinismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Espeleobuceo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cave diving"
+  }, {
+    "@language" : "es",
+    "@value" : "Espeleobuceo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Submarinismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Espeleologia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Espeleología"
+  }, {
+    "@language" : "en",
+    "@value" : "Speleology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeReptar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#EsquiAlpino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Alpine ski"
+  }, {
+    "@language" : "es",
+    "@value" : "Esquí alpino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#EsquiDescalzo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barefoot waterski"
+  }, {
+    "@language" : "es",
+    "@value" : "Esquí descalzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#EsquiNautico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Esquí náutico"
+  }, {
+    "@language" : "en",
+    "@value" : "Water skiing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Flowboarding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flowboarding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Flyboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flyboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#FreeSkate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Free skate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#GloboAerostatico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Globo aerostático"
+  }, {
+    "@language" : "en",
+    "@value" : "Hot air balloon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeAscender"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Highline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Highline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeEquilibrio"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Hydrospeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hydrospeed"
+  }, {
+    "@language" : "es",
+    "@value" : "Hydrospeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rafting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ibai",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Realizar_actividad_1"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paricipante"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "es",
+    "@value" : "Ibai"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Jetman",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Jetman"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Kart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kart"
+  }, {
+    "@language" : "es",
+    "@value" : "Kart"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Kayak",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kayak"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Kitefoil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kitefoil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#LanchaAMotor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Lancha a motor"
+  }, {
+    "@language" : "en",
+    "@value" : "Motor boat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Longboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Longboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Monitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol" ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montanismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Montañismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Mountaineering"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCaminar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres de montar"
+  }, {
+    "@language" : "en",
+    "@value" : "Ride"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#MotoAcuatica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Jet ski"
+  }, {
+    "@language" : "es",
+    "@value" : "Moto acuática"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motociclismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Sport use of motorcycles in various modalities."
+  }, {
+    "@language" : "es",
+    "@value" : "Uso deportivo de la motocicleta en varias modalidades."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Motociclismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Motorcycle sport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeRodar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#MotociclismoEstiloLibre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FMX"
+  }, {
+    "@language" : "es",
+    "@value" : "Motociclismo estilo libre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motociclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motocros",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Motocross"
+  }, {
+    "@language" : "es",
+    "@value" : "Motocrós"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motociclismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motonieve",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "es",
+    "@value" : "Motonieve"
+  }, {
+    "@language" : "en",
+    "@value" : "Snowmobile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La actividad emplea vehículos para su realización."
+  }, {
+    "@language" : "en",
+    "@value" : "The activity uses motorized vehicles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Motor"
+  }, {
+    "@language" : "en",
+    "@value" : "Motorized"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Mountainboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mountain board"
+  }, {
+    "@language" : "es",
+    "@value" : "Tabla de montaña"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Organizador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol" ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Orientacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Orientación"
+  }, {
+    "@language" : "en",
+    "@value" : "Orientation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCorrer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Oscar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Realizar_actividad_1"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Monitor"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "es",
+    "@value" : "Óscar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Pablo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Realizar_actividad_1"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paricipante"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@language" : "es",
+    "@value" : "Pablo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paracaidismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Paracaidismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Skydiving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeCaer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Parapente",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paragliding"
+  }, {
+    "@language" : "es",
+    "@value" : "Parapente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ParapenteAMotor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Motorized paraglider"
+  }, {
+    "@language" : "es",
+    "@value" : "Parapente a motor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paravelismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parasailing"
+  }, {
+    "@language" : "es",
+    "@value" : "Paravelismo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paricipante",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol" ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Parkour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Parkour"
+  }, {
+    "@language" : "es",
+    "@value" : "Parkour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeRodar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Patines"
+  }, {
+    "@language" : "en",
+    "@value" : "Skate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Patinete"
+  }, {
+    "@language" : "en",
+    "@value" : "Skateboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#PescaSubmarina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Pesca submarina"
+  }, {
+    "@language" : "en",
+    "@value" : "Spearfishing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeInmersion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Piragua",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Equipamiento" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Piragua"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Money quanity needed for the participation in an activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Cantidad económica necesaria para realizar una actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Precio"
+  }, {
+    "@language" : "en",
+    "@value" : "Prize"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Puenting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bungee jumping"
+  }, {
+    "@language" : "es",
+    "@value" : "Puenting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeCaer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Quad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quad"
+  }, {
+    "@language" : "es",
+    "@value" : "Quad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rafting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Descenso de ríos"
+  }, {
+    "@language" : "en",
+    "@value" : "Rafting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rally",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rally"
+  }, {
+    "@language" : "es",
+    "@value" : "Rally"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Automovilismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RanaSella",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Agent" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Realizar_actividad_1"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Organizador"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "RanaSella"
+  } ],
+  "http://xmlns.com/foaf/0.1/website" : [ {
+    "@value" : "https://www.ranasella.com/"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rapel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Rapel"
+  }, {
+    "@language" : "en",
+    "@value" : "Rappel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Raquetas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Raquetas de nieve"
+  }, {
+    "@language" : "en",
+    "@value" : "Snow rackets"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Asset"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Realizar_actividad_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad" ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#DescensoDelSella"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:cantidadParticipantes" : [ {
+    "@language" : "es",
+    "@value" : "Parejas"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:descuento" : [ {
+    "@language" : "es",
+    "@value" : "Un 20% en estudiantes"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:dificultad" : [ {
+    "@language" : "es",
+    "@value" : "familiar"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:duracion" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "120"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ibai"
+  }, {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Oscar"
+  }, {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Pablo"
+  }, {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RanaSella"
+  } ],
+  "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#15euros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Medios materiales utilizados para la ejecución de una actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "Recurses needed for the execution of an activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Remo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Equipamiento" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Remo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rodeo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rodeo"
+  }, {
+    "@language" : "es",
+    "@value" : "Rodeo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SaltoBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "B.A.S.E. Jumping"
+  }, {
+    "@language" : "es",
+    "@value" : "Salto B.A.S.E."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paracaidismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SaltoDeAcantilado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cliff jumping"
+  }, {
+    "@language" : "es",
+    "@value" : "Salto de acantilado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSalto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Sandboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sandboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Senderismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Senderismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Trekking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeCaminar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SkiFreeride",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Esquí freeride"
+  }, {
+    "@language" : "en",
+    "@value" : "Freeride ski"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Skimboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Skimboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Snowboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Snowboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Snowkite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Snowkite"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Speedflying",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Speed flying"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#StreetStunt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Street stunt"
+  }, {
+    "@language" : "es",
+    "@value" : "Truco callejero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Submarinismo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Buceo"
+  }, {
+    "@language" : "es",
+    "@value" : "Escafandrismo"
+  }, {
+    "@language" : "es",
+    "@value" : "Submarinismo"
+  }, {
+    "@language" : "en",
+    "@value" : "Underwater diving"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeInmersion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Surf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SurfAVela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Surf a vela"
+  }, {
+    "@language" : "en",
+    "@value" : "Windsurf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SurfDePala",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paddle surf"
+  }, {
+    "@language" : "es",
+    "@value" : "Surf de pala"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SurfeoAereo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Skysurf"
+  }, {
+    "@language" : "es",
+    "@value" : "Surfeo aéreo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Paracaidismo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Tablacometa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kitesurf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Surf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Telemark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Telemark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Terrestres",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Actividades realizadas sobre superficie firme."
+  }, {
+    "@language" : "en",
+    "@value" : "Activities carried out on firm surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividades terrestres"
+  }, {
+    "@language" : "en",
+    "@value" : "Ground"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Tirolina",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Tirolina"
+  }, {
+    "@language" : "en",
+    "@value" : "Zip line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrajeAereo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Traje aéreo"
+  }, {
+    "@language" : "en",
+    "@value" : "Wingsuit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TravesiaEnAguasAbiertas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Open water swimming"
+  }, {
+    "@language" : "es",
+    "@value" : "Travesia en aguas abiertas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeInmersion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrepaArbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tree climbing"
+  }, {
+    "@language" : "es",
+    "@value" : "Trepa árbol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrineoDeAsfalto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Street luge"
+  }, {
+    "@language" : "es",
+    "@value" : "Trineo de asfalto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Patinaje"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrineoDeVela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Iceboat"
+  }, {
+    "@language" : "es",
+    "@value" : "Trineo de vela"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeHielo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Trineos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sled"
+  }, {
+    "@language" : "es",
+    "@value" : "Trineos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Montar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Truco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trick"
+  }, {
+    "@language" : "es",
+    "@value" : "Truco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeSaltar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ubicacion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Lugar en el que se realiza la actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "Place in which the activity is carried out."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Ubicación"
+  }, {
+    "@language" : "en",
+    "@value" : "Ubication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ultraligero",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Microlight"
+  }, {
+    "@language" : "es",
+    "@value" : "Ultraligero"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDeAscender"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Vela",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sailing"
+  }, {
+    "@language" : "es",
+    "@value" : "Vela"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ViaFerrata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Via ferrata"
+  }, {
+    "@language" : "es",
+    "@value" : "Vía ferrata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#VueloSinMotor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gliding"
+  }, {
+    "@language" : "es",
+    "@value" : "Vuelo sin motor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Wakeboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wakeboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSuperficie"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Acción que es necesaria realizar para obtener permisos para realizar una actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "Required action for the participation in an activiity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Action"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PermissionLey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Mandatory requisites for the participation in an activity."
+  }, {
+    "@language" : "es",
+    "@value" : "Requisitos obligatorios por ley para la participación en una actividad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Permission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PermissionOrganizador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Requisitos impuestos por el organizador para la realización de la actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "Rquisites established by the organization entuty needed for the participation in the activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Permission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PolicyDeOrganizador",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Policies of participation in an activity stablished by the organizer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Políticas de participación en una actividad por parte del organizador."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Policy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PolicyLey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Policies of participation in an activity stablished by the law."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Políticas de participación en una actividad establecidas por ley."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Policy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:cantidadParticipantes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "es",
+    "@value" : "Atributo para conocer si una actividad es indivual, en parejas, tríos o multitudinária."
+  }, {
+    "@language" : "en",
+    "@value" : "Attribute to know if an activity is individual, in pairs, trios or multitudinous."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:descuento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Atributo para conocer qué tipos de descuentos se ofrecen en la actividad: de familia numerosa, discapacidad..."
+  }, {
+    "@language" : "en",
+    "@value" : "It designates which types of discounts are available for the activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:dificultad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Level of difficulty of the activity: Familiar, Medium or Extreme."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#description" : [ {
+    "@language" : "es",
+    "@value" : "Nivel de dificultad de la actividad, que puede ser familiar, media y extrema."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:duracion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Duración de la actividad realizada."
+  }, {
+    "@language" : "en",
+    "@value" : "Duration of the activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esFederada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La actividad está incluida en algún organismo o entidad."
+  }, {
+    "@language" : "en",
+    "@value" : "The activity is included in any organization or entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esPopular",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Designa la popularidad de la actividad hoy en día."
+  }, {
+    "@language" : "en",
+    "@value" : "It  designates the popularity of the activity nowadays."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:impactoMedioambiental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Designa cómo afecta una actividad al medioambiente dependiendo de la contaminación que esta implique."
+  }, {
+    "@language" : "en",
+    "@value" : "It designates the environment impact of the activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:medio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Medio en el que se realiza la actividad: Fluvial o Marítimo."
+  }, {
+    "@language" : "en",
+    "@value" : "Medium in which the activity is done: fluvial or maritime."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:precioCantidad",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La cantidad monetaria requerida para la ejecución de una actividad."
+  }, {
+    "@language" : "en",
+    "@value" : "Monetary quantity required for teh participation in the activity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:precioMetrica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Monetary unit accepted in an activity."
+  }, {
+    "@language" : "es",
+    "@value" : "Unidad monetaria que acepta una actividad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ubicacion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:temporada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Season in which the activity can be executed."
+  }, {
+    "@language" : "es",
+    "@value" : "Época del año en la que se realiza la actividad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Asset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Permission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Permisos"
+  }, {
+    "@language" : "en",
+    "@value" : "Permission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Policy"
+  }, {
+    "@language" : "es",
+    "@value" : "Política"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Permission"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Asset"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:Action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasPermission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Policy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Permission"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasPolicy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Asset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Policy"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Individual or entity who is involved in the realization of an activity."
+  }, {
+    "@language" : "es",
+    "@value" : "Individuo u organización que se involucra en la realización de una actividad."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/website",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
