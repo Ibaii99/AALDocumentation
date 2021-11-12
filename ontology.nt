@@ -50,42 +50,56 @@
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada> <http://www.w3.org/2000/01/rdf-schema#label> "aal:actividadRealizada"@es .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:actividadRealizada> <http://www.w3.org/2000/01/rdf-schema#label> "aal:activityRealized"@en .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/2000/01/rdf-schema#label> "aal:esIntervenidoPor"@es .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor> <http://www.w3.org/2000/01/rdf-schema#label> "aal:isIntervenedBy"@en .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/2000/01/rdf-schema#label> "aal:intervenes"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene> <http://www.w3.org/2000/01/rdf-schema#label> "aal:interviene"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ubicacion> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/2000/01/rdf-schema#label> "aal:isCarriedOutAt"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn> <http://www.w3.org/2000/01/rdf-schema#label> "aal:seRealizaEn"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/2000/01/rdf-schema#label> "aal:isUsed"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza> <http://www.w3.org/2000/01/rdf-schema#label> "aal:seUtiliza"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/2000/01/rdf-schema#label> "aal:hasPrice"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio> <http://www.w3.org/2000/01/rdf-schema#label> "aal:tienePrecio"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/2000/01/rdf-schema#label> "aal:hasRole"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol> <http://www.w3.org/2000/01/rdf-schema#label> "aal:tieneRol"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Target
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -105,6 +119,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semantic
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasAction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:Action> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasAction> <http://www.w3.org/2000/01/rdf-schema#label> "odrl:hasAction"@en .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasPermission
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasPermission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -802,6 +817,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> <http://www.w3.org/2000/01/rdf-schema#comment> "Medios materiales utilizados para la ejecución de una actividad."@es .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> <http://www.w3.org/2000/01/rdf-schema#comment> "Recurses needed for the execution of an activity."@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> <http://www.w3.org/2000/01/rdf-schema#label> "Recurse"@en .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso> <http://www.w3.org/2000/01/rdf-schema#label> "Recurso"@es .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rodeo
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rodeo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -812,6 +829,8 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol> <http://www.w3.org/2000/01/rdf-schema#label> "Rol"@es .
+<http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
 # 
 # http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SaltoBase
 <http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SaltoBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

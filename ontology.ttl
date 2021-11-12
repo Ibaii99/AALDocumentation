@@ -55,49 +55,63 @@ rdfs:description rdf:type owl:AnnotationProperty .
 :aal:actividadRealizada rdf:type owl:ObjectProperty ;
                         rdfs:subPropertyOf owl:topObjectProperty ;
                         rdfs:domain :RealizarActividad ;
-                        rdfs:range :Actividades .
+                        rdfs:range :Actividades ;
+                        rdfs:label "aal:actividadRealizada"@es ,
+                                   "aal:activityRealized"@en .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:esIntervenidoPor
 :aal:esIntervenidoPor rdf:type owl:ObjectProperty ;
                       rdfs:subPropertyOf owl:topObjectProperty ;
                       rdfs:domain :RealizarActividad ;
-                      rdfs:range <http://xmlns.com/foaf/0.1/Agent> .
+                      rdfs:range <http://xmlns.com/foaf/0.1/Agent> ;
+                      rdfs:label "aal:esIntervenidoPor"@es ,
+                                 "aal:isIntervenedBy"@en .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:interviene
 :aal:interviene rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
-                rdfs:range :RealizarActividad .
+                rdfs:range :RealizarActividad ;
+                rdfs:label "aal:intervenes"@en ,
+                           "aal:interviene"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seRealizanEn
 :aal:seRealizanEn rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
                   rdfs:domain :Actividades ;
-                  rdfs:range :Ubicacion .
+                  rdfs:range :Ubicacion ;
+                  rdfs:label "aal:isCarriedOutAt"@en ,
+                             "aal:seRealizaEn"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:seUtiliza
 :aal:seUtiliza rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain :Actividades ;
-               rdfs:range :Recurso .
+               rdfs:range :Recurso ;
+               rdfs:label "aal:isUsed"@en ,
+                          "aal:seUtiliza"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio
 :aal:tienePrecio rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
                  rdfs:domain :RealizarActividad ;
-                 rdfs:range :Precio .
+                 rdfs:range :Precio ;
+                 rdfs:label "aal:hasPrice"@en ,
+                            "aal:tienePrecio"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tieneRol
 :aal:tieneRol rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
-              rdfs:range :Rol .
+              rdfs:range :Rol ;
+              rdfs:label "aal:hasRole"@en ,
+                         "aal:tieneRol"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Target
@@ -114,7 +128,8 @@ rdfs:description rdf:type owl:AnnotationProperty .
                                                  ) ;
                               rdf:type owl:Class
                             ] ;
-                rdfs:range :aal:Action .
+                rdfs:range :aal:Action ;
+                rdfs:label "odrl:hasAction"@en .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:hasPermission
@@ -908,7 +923,9 @@ owl:topDataProperty rdfs:subPropertyOf owl:topDataProperty .
 :Recurso rdf:type owl:Class ;
          rdfs:subClassOf owl:Thing ;
          rdfs:comment "Medios materiales utilizados para la ejecución de una actividad."@es ,
-                      "Recurses needed for the execution of an activity."@en .
+                      "Recurses needed for the execution of an activity."@en ;
+         rdfs:label "Recurse"@en ,
+                    "Recurso"@es .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rodeo
@@ -920,7 +937,9 @@ owl:topDataProperty rdfs:subPropertyOf owl:topDataProperty .
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol
 :Rol rdf:type owl:Class ;
-     rdfs:subClassOf owl:Thing .
+     rdfs:subClassOf owl:Thing ;
+     rdfs:label "Rol"@es ,
+                "Role"@en .
 
 
 ###  http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SaltoBase

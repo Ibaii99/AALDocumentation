@@ -1513,6 +1513,13 @@
     "@language" : "en",
     "@value" : "Recurses needed for the execution of an activity."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recurse"
+  }, {
+    "@language" : "es",
+    "@value" : "Recurso"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
@@ -1539,6 +1546,13 @@
 }, {
   "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Rol"
+  }, {
+    "@language" : "en",
+    "@value" : "Role"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ]
@@ -2024,6 +2038,13 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "aal:actividadRealizada"
+  }, {
+    "@language" : "en",
+    "@value" : "aal:activityRealized"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
   } ],
@@ -2132,6 +2153,13 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "aal:esIntervenidoPor"
+  }, {
+    "@language" : "en",
+    "@value" : "aal:isIntervenedBy"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Agent"
   } ],
@@ -2181,6 +2209,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aal:intervenes"
+  }, {
+    "@language" : "es",
+    "@value" : "aal:interviene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
@@ -2251,6 +2286,13 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aal:isCarriedOutAt"
+  }, {
+    "@language" : "es",
+    "@value" : "aal:seRealizaEn"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Ubicacion"
   } ],
@@ -2262,6 +2304,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Actividades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aal:isUsed"
+  }, {
+    "@language" : "es",
+    "@value" : "aal:seUtiliza"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Recurso"
@@ -2294,6 +2343,13 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aal:hasPrice"
+  }, {
+    "@language" : "es",
+    "@value" : "aal:tienePrecio"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Precio"
   } ],
@@ -2305,6 +2361,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aal:hasRole"
+  }, {
+    "@language" : "es",
+    "@value" : "aal:tieneRol"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Rol"
@@ -2364,6 +2427,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "odrl:hasAction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:Action"

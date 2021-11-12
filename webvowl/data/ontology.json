@@ -100,10 +100,10 @@
     "id" : "116",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "81",
+    "id" : "71",
     "type" : "owl:Class"
   }, {
     "id" : "120",
@@ -160,10 +160,10 @@
     "id" : "148",
     "type" : "owl:Class"
   }, {
-    "id" : "159",
+    "id" : "158",
     "type" : "owl:Class"
   }, {
-    "id" : "143",
+    "id" : "160",
     "type" : "owl:Class"
   }, {
     "id" : "66",
@@ -229,22 +229,22 @@
     "id" : "205",
     "type" : "owl:Class"
   }, {
-    "id" : "156",
+    "id" : "154",
     "type" : "owl:Class"
   }, {
     "id" : "87",
     "type" : "owl:Class"
   }, {
-    "id" : "152",
+    "id" : "146",
     "type" : "owl:Class"
   }, {
     "id" : "150",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "211",
     "type" : "owl:Class"
   }, {
-    "id" : "211",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "69",
@@ -307,10 +307,10 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "215",
+    "id" : "178",
     "type" : "owl:Class"
   }, {
-    "id" : "178",
+    "id" : "215",
     "type" : "owl:Class"
   }, {
     "id" : "117",
@@ -361,10 +361,10 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "260",
+    "id" : "229",
     "type" : "owl:Class"
   }, {
-    "id" : "229",
+    "id" : "260",
     "type" : "owl:Class"
   }, {
     "id" : "77",
@@ -403,10 +403,10 @@
     "id" : "170",
     "type" : "owl:Class"
   }, {
-    "id" : "222",
+    "id" : "156",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "222",
     "type" : "owl:Class"
   }, {
     "id" : "204",
@@ -469,22 +469,22 @@
     "id" : "25",
     "type" : "owl:Class"
   }, {
-    "id" : "172",
-    "type" : "owl:Class"
-  }, {
     "id" : "267",
     "type" : "owl:Class"
   }, {
-    "id" : "22",
+    "id" : "172",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "145",
+    "id" : "143",
     "type" : "owl:Class"
   }, {
     "id" : "40",
@@ -532,7 +532,7 @@
     "label" : {
       "IRI-based" : "Submarinismo",
       "en" : "Underwater diving",
-      "es" : "Submarinismo"
+      "es" : "Escafandrismo"
     },
     "subClasses" : [ "38", "39", "40" ],
     "id" : "36",
@@ -756,16 +756,6 @@
     "id" : "116",
     "superClasses" : [ "117" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Highline",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Highline",
-      "en" : "Highline"
-    },
-    "id" : "71",
-    "superClasses" : [ "66" ]
-  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Truco",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -776,6 +766,16 @@
     },
     "id" : "81",
     "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Highline",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Highline",
+      "en" : "Highline"
+    },
+    "id" : "71",
+    "superClasses" : [ "66" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Skimboard",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -929,7 +929,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 1,
     "label" : {
-      "IRI-based" : "Recurso"
+      "IRI-based" : "Recurso",
+      "en" : "Recurse",
+      "es" : "Recurso"
     },
     "subClasses" : [ "67", "138", "101", "139" ],
     "comment" : {
@@ -958,17 +960,6 @@
     "subClasses" : [ "27", "87" ],
     "id" : "88"
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Canoa",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Canoa",
-      "en" : "Canoeing",
-      "es" : "Piragüismo"
-    },
-    "id" : "147",
-    "superClasses" : [ "25" ]
-  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Biketrial",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -977,8 +968,19 @@
       "en" : "Biketrial",
       "es" : "Trial bici"
     },
-    "id" : "148",
+    "id" : "147",
     "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Canoa",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canoa",
+      "en" : "Canoeing",
+      "es" : "Piragüismo"
+    },
+    "id" : "148",
+    "superClasses" : [ "25" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Snowkite",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -987,7 +989,7 @@
       "IRI-based" : "Snowkite",
       "en" : "Snowkite"
     },
-    "id" : "159",
+    "id" : "158",
     "superClasses" : [ "117" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Tirolina",
@@ -998,7 +1000,7 @@
       "en" : "Zip line",
       "es" : "Tirolina"
     },
-    "id" : "143",
+    "id" : "160",
     "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeEquilibrio",
@@ -1070,7 +1072,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Rol"
+      "IRI-based" : "Rol",
+      "en" : "Role",
+      "es" : "Rol"
     },
     "individuals" : [ {
       "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Organizador",
@@ -1131,7 +1135,7 @@
       "en" : "Cycling",
       "es" : "Ciclismo"
     },
-    "subClasses" : [ "102", "170", "148" ],
+    "subClasses" : [ "102", "170", "147" ],
     "id" : "103",
     "superClasses" : [ "106" ]
   }, {
@@ -1247,7 +1251,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Cuerpo",
-      "es" : "Body"
+      "es" : "Cuerpo"
     },
     "comment" : {
       "en" : "The activity uses the human body for its execution.",
@@ -1278,16 +1282,6 @@
     "id" : "38",
     "superClasses" : [ "36" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Speedflying",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Speedflying",
-      "en" : "Speed flying"
-    },
-    "id" : "201",
-    "superClasses" : [ "117" ]
-  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Alpinismo",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -1295,6 +1289,16 @@
       "IRI-based" : "Alpinismo",
       "en" : "Alpinism",
       "es" : "Alpinismo"
+    },
+    "id" : "201",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Speedflying",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Speedflying",
+      "en" : "Speed flying"
     },
     "id" : "202",
     "superClasses" : [ "117" ]
@@ -1317,7 +1321,7 @@
       "IRI-based" : "Jetman",
       "en" : "Jetman"
     },
-    "id" : "156",
+    "id" : "154",
     "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#RealizarActividad",
@@ -1336,17 +1340,6 @@
     "id" : "87",
     "superClasses" : [ "88" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrajeAereo",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "TrajeAereo",
-      "en" : "Wingsuit",
-      "es" : "Traje aéreo"
-    },
-    "id" : "152",
-    "superClasses" : [ "8" ]
-  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Aeroestacion",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -1355,19 +1348,19 @@
       "en" : "Aerostation",
       "es" : "Aerostación"
     },
-    "id" : "150",
+    "id" : "146",
     "superClasses" : [ "8" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Hydrospeed",
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#TrajeAereo",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Hydrospeed",
-      "en" : "Hydrospeed",
-      "es" : "Hydrospeed"
+      "IRI-based" : "TrajeAereo",
+      "en" : "Wingsuit",
+      "es" : "Traje aéreo"
     },
-    "id" : "52",
-    "superClasses" : [ "53" ]
+    "id" : "150",
+    "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#MotociclismoEstiloLibre",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -1379,6 +1372,17 @@
     },
     "id" : "211",
     "superClasses" : [ "135" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Hydrospeed",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hydrospeed",
+      "en" : "Hydrospeed",
+      "es" : "Hydrospeed"
+    },
+    "id" : "52",
+    "superClasses" : [ "53" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Cinta_tensa",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -1584,16 +1588,6 @@
     "id" : "48",
     "superClasses" : [ "106" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Flowboarding",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Flowboarding",
-      "en" : "Flowboarding"
-    },
-    "id" : "215",
-    "superClasses" : [ "98" ]
-  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#EsquiDescalzo",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -1604,6 +1598,16 @@
     },
     "id" : "178",
     "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Flowboarding",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flowboarding",
+      "en" : "Flowboarding"
+    },
+    "id" : "215",
+    "superClasses" : [ "98" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeNieve",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -1617,7 +1621,7 @@
       "en" : "Snow",
       "es" : "Actividades sobre nieve"
     },
-    "subClasses" : [ "222", "116", "159", "202", "201", "205", "236", "137", "237" ],
+    "subClasses" : [ "222", "116", "158", "201", "202", "205", "236", "137", "237" ],
     "id" : "117",
     "superClasses" : [ "136" ]
   }, {
@@ -1795,6 +1799,16 @@
     "id" : "1",
     "superClasses" : [ "2" ]
   }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Longboard",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Longboard",
+      "en" : "Longboard"
+    },
+    "id" : "229",
+    "superClasses" : [ "48" ]
+  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Coasteering",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -1805,16 +1819,6 @@
     },
     "id" : "260",
     "superClasses" : [ "96" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Longboard",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Longboard",
-      "en" : "Longboard"
-    },
-    "id" : "229",
-    "superClasses" : [ "48" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesTerrestresDeReptar",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -1986,6 +1990,17 @@
     "id" : "170",
     "superClasses" : [ "103" ]
   }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#VueloSinMotor",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VueloSinMotor",
+      "en" : "Gliding",
+      "es" : "Vuelo sin motor"
+    },
+    "id" : "156",
+    "superClasses" : [ "8" ]
+  }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#SkiFreeride",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
@@ -1996,17 +2011,6 @@
     },
     "id" : "222",
     "superClasses" : [ "117" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#VueloSinMotor",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "VueloSinMotor",
-      "en" : "Gliding",
-      "es" : "Vuelo sin motor"
-    },
-    "id" : "158",
-    "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:PolicyDeOrganizador",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -2235,9 +2239,20 @@
       "en" : "Surface",
       "es" : "Actividades acuáticas de superficie"
     },
-    "subClasses" : [ "24", "124", "188", "190", "172", "127", "162", "98", "53", "178", "180", "147", "120" ],
+    "subClasses" : [ "24", "124", "188", "190", "172", "127", "162", "98", "53", "178", "180", "148", "120" ],
     "id" : "25",
     "superClasses" : [ "113" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motocros",
+    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Motocros",
+      "en" : "Motocross",
+      "es" : "Motocrós"
+    },
+    "id" : "267",
+    "superClasses" : [ "135" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#MotoAcuatica",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -2250,16 +2265,21 @@
     "id" : "172",
     "superClasses" : [ "25" ]
   }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Motocros",
+    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Motocros",
-      "en" : "Motocross",
-      "es" : "Motocrós"
+    "description" : {
+      "en" : "Descent without motor action and under normal conditions.",
+      "es" : "Descenso sin la acción del motor y en condiciones normales."
     },
-    "id" : "267",
-    "superClasses" : [ "135" ]
+    "label" : {
+      "IRI-based" : "ActividadesAereasDePlanear",
+      "en" : "Glide",
+      "es" : "Actividades aéreas de planeo"
+    },
+    "subClasses" : [ "154", "156", "104", "121", "160", "143", "83", "146", "150" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAcuaticasDeSalto",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -2276,22 +2296,6 @@
     "subClasses" : [ "21" ],
     "id" : "22",
     "superClasses" : [ "113" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#ActividadesAereasDePlanear",
-    "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
-    "instances" : 0,
-    "description" : {
-      "en" : "Descent without motor action and under normal conditions.",
-      "es" : "Descenso sin la acción del motor y en condiciones normales."
-    },
-    "label" : {
-      "IRI-based" : "ActividadesAereasDePlanear",
-      "en" : "Glide",
-      "es" : "Actividades aéreas de planeo"
-    },
-    "subClasses" : [ "156", "158", "104", "121", "143", "145", "83", "150", "152" ],
-    "id" : "8",
-    "superClasses" : [ "9" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Espeleobuceo",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
@@ -2312,7 +2316,7 @@
       "en" : "Hang gliding",
       "es" : "Ala delta"
     },
-    "id" : "145",
+    "id" : "143",
     "superClasses" : [ "8" ]
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#Apnea",
@@ -2453,7 +2457,7 @@
     "id" : "144",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "146",
+    "id" : "145",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "46",
@@ -2465,10 +2469,10 @@
     "id" : "151",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "153",
+    "id" : "152",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "154",
+    "id" : "153",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "155",
@@ -2477,7 +2481,7 @@
     "id" : "157",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "160",
+    "id" : "159",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "161",
@@ -2869,7 +2873,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "28",
     "label" : {
-      "IRI-based" : "aal:seRealizanEn"
+      "IRI-based" : "aal:seRealizanEn",
+      "en" : "aal:isCarriedOutAt",
+      "es" : "aal:seRealizaEn"
     },
     "superproperty" : [ "29" ],
     "domain" : "27",
@@ -2880,7 +2886,8 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "33",
     "label" : {
-      "IRI-based" : "odrl:hasAction"
+      "IRI-based" : "odrl:hasAction",
+      "en" : "odrl:hasAction"
     },
     "superproperty" : [ "29" ],
     "domain" : "32",
@@ -2891,7 +2898,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "35",
     "label" : {
-      "IRI-based" : "aal:seUtiliza"
+      "IRI-based" : "aal:seUtiliza",
+      "en" : "aal:isUsed",
+      "es" : "aal:seUtiliza"
     },
     "superproperty" : [ "29" ],
     "domain" : "27",
@@ -3019,7 +3028,7 @@
       "IRI-based" : "topDataProperty"
     },
     "domain" : "41",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "118"
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#odrl:Target",
@@ -3072,20 +3081,22 @@
     "id" : "142"
   }, {
     "range" : "8",
-    "domain" : "145",
+    "domain" : "83",
     "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
     "range" : "8",
-    "domain" : "83",
+    "domain" : "146",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "146"
+    "id" : "145"
   }, {
     "iri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre#aal:tienePrecio",
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "11",
     "label" : {
-      "IRI-based" : "aal:tienePrecio"
+      "IRI-based" : "aal:tienePrecio",
+      "en" : "aal:hasPrice",
+      "es" : "aal:tienePrecio"
     },
     "superproperty" : [ "29" ],
     "domain" : "87",
@@ -3097,20 +3108,20 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
-    "range" : "8",
-    "domain" : "152",
+    "range" : "22",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "151"
   }, {
     "range" : "103",
-    "domain" : "148",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "8",
+    "domain" : "154",
     "attributes" : [ "object", "anonymous" ],
     "id" : "153"
-  }, {
-    "range" : "22",
-    "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "154"
   }, {
     "range" : "8",
     "domain" : "156",
@@ -3118,17 +3129,17 @@
     "id" : "155"
   }, {
     "range" : "8",
-    "domain" : "158",
+    "domain" : "104",
     "attributes" : [ "object", "anonymous" ],
     "id" : "157"
   }, {
     "range" : "8",
-    "domain" : "104",
+    "domain" : "121",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "160"
+    "id" : "159"
   }, {
     "range" : "8",
-    "domain" : "121",
+    "domain" : "160",
     "attributes" : [ "object", "anonymous" ],
     "id" : "161"
   }, {
@@ -3136,7 +3147,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "163",
     "label" : {
-      "IRI-based" : "aal:esIntervenidoPor"
+      "IRI-based" : "aal:esIntervenidoPor",
+      "en" : "aal:isIntervenedBy",
+      "es" : "aal:esIntervenidoPor"
     },
     "superproperty" : [ "29" ],
     "domain" : "87",
@@ -3160,7 +3173,7 @@
     "id" : "164"
   }, {
     "range" : "25",
-    "domain" : "147",
+    "domain" : "148",
     "attributes" : [ "object", "anonymous" ],
     "id" : "166"
   }, {
@@ -3218,7 +3231,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "87",
     "label" : {
-      "IRI-based" : "aal:interviene"
+      "IRI-based" : "aal:interviene",
+      "en" : "aal:intervenes",
+      "es" : "aal:interviene"
     },
     "superproperty" : [ "29" ],
     "domain" : "163",
@@ -3337,7 +3352,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "27",
     "label" : {
-      "IRI-based" : "aal:actividadRealizada"
+      "IRI-based" : "aal:actividadRealizada",
+      "en" : "aal:activityRealized",
+      "es" : "aal:actividadRealizada"
     },
     "superproperty" : [ "29" ],
     "domain" : "87",
@@ -3431,7 +3448,9 @@
     "baseIri" : "http://www.semanticweb.org/UPM/ontologies/2021/actividades-deportivas-al-aire-libre",
     "range" : "182",
     "label" : {
-      "IRI-based" : "aal:tieneRol"
+      "IRI-based" : "aal:tieneRol",
+      "en" : "aal:hasRole",
+      "es" : "aal:tieneRol"
     },
     "superproperty" : [ "29" ],
     "domain" : "163",
@@ -3602,12 +3621,12 @@
     "id" : "276"
   }, {
     "range" : "117",
-    "domain" : "202",
+    "domain" : "201",
     "attributes" : [ "object", "anonymous" ],
     "id" : "277"
   }, {
     "range" : "117",
-    "domain" : "159",
+    "domain" : "158",
     "attributes" : [ "object", "anonymous" ],
     "id" : "278"
   }, {
@@ -3617,7 +3636,7 @@
     "id" : "279"
   }, {
     "range" : "117",
-    "domain" : "201",
+    "domain" : "202",
     "attributes" : [ "object", "anonymous" ],
     "id" : "280"
   }, {
